@@ -12,6 +12,6 @@ A minimalist video streaming website inspired by YouTube, built using only HTML 
 
 ## Preview
 
-"C:\Users\Dnyaneshwari\OneDrive\Pictures\Screenshots\Screenshot 2025-01-19 144425.png"
 
+![Uploading Screenshot 2025-01-19 144425.png…]()
 
