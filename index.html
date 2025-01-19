@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Stream</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff0000;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    .search-bar {
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+    }
+
+    .search-bar input[type="text"] {
+      width: 60%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .search-bar button {
+      padding: 10px 20px;
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    .search-bar button:hover {
+      background-color: #cc0000;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .video-item {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .video-item:hover {
+      transform: scale(1.05);
+    }
+
+    .video-thumbnail img {
+      width: 100%;
+      height: auto;
+    }
+
+    .video-info {
+      padding: 15px;
+    }
+
+    .video-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .video-description {
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #f0f0f0;
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mini Tube</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Trending</a>
+      <a href="#">Favorites</a>
+      <a href="#">Profile</a>
+    </nav>
+  </header>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search videos...">
+    <button>Search</button>
+  </div>
+
+  <div class="video-grid">
+    <div class="video-item">
+      <div class="video-thumbnail">
+        <img src="C:\Users\Dnyaneshwari\OneDrive\Desktop\web dev\cat.jpg" alt="Mr. Wiskers">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Mr. Wiskers</p>
+        <p class="video-description">This is a description of the video.</p>
+      </div>
+    </div>
+    <div class="video-item">
+      <div class="video-thumbnail">
+        <img src="C:\Users\Dnyaneshwari\OneDrive\Desktop\web dev\dog.jpg" alt="Doggo's Day">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Doggo's Day</p>
+        <p class="video-description">This is another description of the video.</p>
+      </div>
+    </div>
+    <div class="video-item">
+      <div class="video-thumbnail">
+        <img src="C:\Users\Dnyaneshwari\OneDrive\Desktop\web dev\rabbit.jpg" alt="Rabbit Rabbit">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Rabbit Rabbit</p>
+        <p class="video-description">This video is about...</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Video Stream. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
