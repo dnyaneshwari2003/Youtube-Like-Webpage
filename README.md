@@ -1,4 +1,4 @@
-# Video Stream Website
+![Screenshot 2025-01-19 144425](https://github.com/user-attachments/assets/d0465028-9e5b-471a-b5e8-cc6e96a64bfd)# Video Stream Website
 
 A minimalist video streaming website inspired by YouTube, built using only HTML and CSS. The platform features a responsive design, a search bar, and a unique layout to showcase video thumbnails with titles and descriptions.
 
@@ -12,6 +12,4 @@ A minimalist video streaming website inspired by YouTube, built using only HTML 
 
 ## Preview
 
-
-![Uploading Screenshot 2025-01-19 144425.png…]()
-
+![Screenshot 2025-01-19 144425](https://github.com/user-attachments/assets/5c9c960d-8089-44ff-b793-e9d96dd4c7bf)
