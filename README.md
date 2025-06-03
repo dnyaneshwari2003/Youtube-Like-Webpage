@@ -1,5 +1,5 @@
 # Mini Tube
-<B> Video Stream Website
+## Video Stream Website
 
 A minimalist video streaming website inspired by YouTube, built using only HTML and CSS. The platform features a responsive design, a search bar, and a unique layout to showcase video thumbnails with titles and descriptions.
 
