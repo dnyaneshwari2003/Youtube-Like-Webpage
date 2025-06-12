@@ -16,3 +16,7 @@ A minimalist video streaming website inspired by YouTube, built using only HTML 
 ![Screenshot 2025-01-19 144425](https://github.com/user-attachments/assets/5c9c960d-8089-44ff-b793-e9d96dd4c7bf)
 
 
+## Tech Stack
+- HTML
+- CSS
+- JAVASCRIPT
